@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>COTO - Supermercado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>COTO</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#ofertas">Ofertas</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="hero-texto">
+    <h2>Bienvenido a Coto</h2>
+    <p>Calidad, ahorro y confianza para tu familia</p>
+    <button onclick="mostrarOferta()">Ver oferta del día</button>
+  </div>
+</section>
+
+<section id="productos">
+  <h2>🛒 Nuestros Productos</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🍎 Frutas</h3>
+      <p>Frescas todos los días</p>
+    </div>
+    <div class="card">
+      <h3>🥩 Carnes</h3>
+      <p>La mejor calidad garantizada</p>
+    </div>
+    <div class="card">
+      <h3>🥖 Panadería</h3>
+      <p>Hecho en el día</p>
+    </div>
+    <div class="card">
+      <h3>🥛 Lácteos</h3>
+      <p>Primeras marcas</p>
+    </div>
+  </div>
+</section>
+
+<section id="ofertas" class="ofertas">
+  <h2>🔥 Ofertas de la Semana</h2>
+  <p id="oferta-texto">Presioná el botón para ver una oferta</p>
+</section>
+
+<section id="nosotros" class="nosotros">
+  <h2>🏬 Sobre Nosotros</h2>
+  <p>
+    En Coto trabajamos todos los días para ofrecerte los mejores productos
+    al mejor precio. Con años de experiencia en el mercado argentino,
+    buscamos brindarte una experiencia de compra única.
+  </p>
+</section>
+
+<section class="beneficios">
+  <h2>⭐ ¿Por qué elegirnos?</h2>
+  <div class="grid">
+    <div class="card">💰 Mejores precios</div>
+    <div class="card">🚚 Entrega rápida</div>
+    <div class="card">🛍 Gran variedad</div>
+    <div class="card">🔒 Compra segura</div>
+  </div>
+</section>
+
+<section id="contacto" class="contacto">
+  <h2>📞 Contacto</h2>
+  <form>
+    <input type="text" placeholder="Tu nombre" required>
+    <input type="email" placeholder="Tu email" required>
+    <textarea placeholder="Tu mensaje"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Coto - Página ficticia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
